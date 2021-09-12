@@ -1,0 +1,865 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group name="" checked="Qt::Checked" expanded="1">
+    <customproperties/>
+    <layer-tree-group name="CMS Facilities" checked="Qt::Checked" expanded="1">
+      <customproperties/>
+      <layer-tree-layer name="MN_CMSApprovedFacilities_2015" id="MN_CMSApprovedFacilities_2015_a3b3165e_7656_45ea_8425_bd6f39877612" source="../Displaying_Data_Exercise_Data/MN_CMSApprovedFacilities_2015.shp" checked="Qt::Checked" expanded="1" providerKey="ogr">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer name="MN_Counties_HeartMrt_over65_1214" id="MN_Counties_HeartMrt_over65_1214_0cc77503_6694_407e_a20c_ecca394f54e3" source="../Displaying_Data_Exercise_Data/MN_Counties_HeartMrt_over65_1214.shp" checked="Qt::Checked" expanded="1" providerKey="ogr">
+        <customproperties/>
+      </layer-tree-layer>
+    </layer-tree-group>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer autoRefreshTime="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" type="vector" simplifyDrawingHints="0" readOnly="0" maxScale="0" geometry="Point" simplifyLocal="1" simplifyMaxScale="1" simplifyDrawingTol="1" refreshOnNotifyEnabled="0" simplifyAlgorithm="0" wkbType="Point" minScale="1e+08" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>-10801587.35689999908208847</xmin>
+        <ymin>5391523.1875</ymin>
+        <xmax>-9993003.24609999917447567</xmax>
+        <ymax>6259107.71700000017881393</ymax>
+      </extent>
+      <id>MN_CMSApprovedFacilities_2015_a3b3165e_7656_45ea_8425_bd6f39877612</id>
+      <datasource>../Displaying_Data_Exercise_Data/MN_CMSApprovedFacilities_2015.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>MN_CMSApprovedFacilities_2015</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["WGS 84 / Pseudo-Mercator",BASEGEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["Popular Visualisation Pseudo-Mercator",METHOD["Popular Visualisation Pseudo Mercator",ID["EPSG",1024]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["World - 85°S to 85°N"],BBOX[-85.06,-180,85.06,180]],ID["EPSG",3857]]</wkt>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo-Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="" minx="0" maxz="0" maxy="0" miny="0" minz="0" dimensions="2" maxx="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 enableorderby="0" symbollevels="0" type="categorizedSymbol" forceraster="0" attr="Category">
+        <categories>
+          <category label="Hospitals" symbol="0" render="true" value="Hospitals"/>
+          <category label="Nursing Facilities" symbol="1" render="true">
+            <val value="Nursing Facilities"/>
+            <val value="Skilled Nursing Facilities"/>
+            <val value="Skilled Nursing Facility_Distinct"/>
+            <val value="Skilled Nursing Facility_Dually"/>
+          </category>
+        </categories>
+        <symbols>
+          <symbol force_rhr="0" clip_to_extent="1" alpha="1" type="marker" name="0">
+            <layer class="SimpleMarker" locked="0" pass="0" enabled="1">
+              <prop v="0" k="angle"/>
+              <prop v="255,255,255,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="227,26,28,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.4" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="area" k="scale_method"/>
+              <prop v="5.2" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+            <layer class="SimpleMarker" locked="0" pass="0" enabled="1">
+              <prop v="0" k="angle"/>
+              <prop v="227,26,28,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="cross_fill" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="227,26,28,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.2" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="area" k="scale_method"/>
+              <prop v="3" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol force_rhr="0" clip_to_extent="1" alpha="1" type="marker" name="1">
+            <layer class="SimpleMarker" locked="0" pass="0" enabled="1">
+              <prop v="0" k="angle"/>
+              <prop v="174,66,232,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="2" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <source-symbol>
+          <symbol force_rhr="0" clip_to_extent="1" alpha="1" type="marker" name="0">
+            <layer class="SimpleMarker" locked="0" pass="0" enabled="1">
+              <prop v="0" k="angle"/>
+              <prop v="213,180,60,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="2" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </source-symbol>
+        <colorramp type="randomcolors" name="[source]"/>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory scaleBasedVisibility="0" penAlpha="255" maxScaleDenominator="1e+08" sizeType="MM" lineSizeScale="3x:0,0,0,0,0,0" penColor="#000000" rotationOffset="270" backgroundColor="#ffffff" opacity="1" penWidth="0" enabled="0" height="15" labelPlacementMethod="XHeight" scaleDependency="Area" minimumSize="0" width="15" diagramOrientation="Up" sizeScale="3x:0,0,0,0,0,0" backgroundAlpha="255" minScaleDenominator="0" lineSizeType="MM" barWidth="5">
+          <fontProperties description="Ubuntu,10,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings placement="0" priority="0" dist="0" zIndex="0" showAll="1" linePlacementFlags="18" obstacle="0">
+        <properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="CMS_PROVID">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CMS_PROV_1">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CMS_PROV_3">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CMS_PROV_4">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FACILITY_N">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CMS_PROV_5">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CMS_PROV_6">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CMS_PROV_7">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CMS_PROV_8">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TOT_BED_CT">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CERTIFIED_">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MEDICARE_S">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MEDICAID_S">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MEDICARE_M">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PHONE_NUM">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FAX_NUM">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Category">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" index="0" field="CMS_PROVID"/>
+        <alias name="" index="1" field="CMS_PROV_1"/>
+        <alias name="" index="2" field="CMS_PROV_3"/>
+        <alias name="" index="3" field="CMS_PROV_4"/>
+        <alias name="" index="4" field="FACILITY_N"/>
+        <alias name="" index="5" field="CMS_PROV_5"/>
+        <alias name="" index="6" field="CMS_PROV_6"/>
+        <alias name="" index="7" field="CMS_PROV_7"/>
+        <alias name="" index="8" field="CMS_PROV_8"/>
+        <alias name="" index="9" field="TOT_BED_CT"/>
+        <alias name="" index="10" field="CERTIFIED_"/>
+        <alias name="" index="11" field="MEDICARE_S"/>
+        <alias name="" index="12" field="MEDICAID_S"/>
+        <alias name="" index="13" field="MEDICARE_M"/>
+        <alias name="" index="14" field="PHONE_NUM"/>
+        <alias name="" index="15" field="FAX_NUM"/>
+        <alias name="" index="16" field="Category"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" applyOnUpdate="0" field="CMS_PROVID"/>
+        <default expression="" applyOnUpdate="0" field="CMS_PROV_1"/>
+        <default expression="" applyOnUpdate="0" field="CMS_PROV_3"/>
+        <default expression="" applyOnUpdate="0" field="CMS_PROV_4"/>
+        <default expression="" applyOnUpdate="0" field="FACILITY_N"/>
+        <default expression="" applyOnUpdate="0" field="CMS_PROV_5"/>
+        <default expression="" applyOnUpdate="0" field="CMS_PROV_6"/>
+        <default expression="" applyOnUpdate="0" field="CMS_PROV_7"/>
+        <default expression="" applyOnUpdate="0" field="CMS_PROV_8"/>
+        <default expression="" applyOnUpdate="0" field="TOT_BED_CT"/>
+        <default expression="" applyOnUpdate="0" field="CERTIFIED_"/>
+        <default expression="" applyOnUpdate="0" field="MEDICARE_S"/>
+        <default expression="" applyOnUpdate="0" field="MEDICAID_S"/>
+        <default expression="" applyOnUpdate="0" field="MEDICARE_M"/>
+        <default expression="" applyOnUpdate="0" field="PHONE_NUM"/>
+        <default expression="" applyOnUpdate="0" field="FAX_NUM"/>
+        <default expression="" applyOnUpdate="0" field="Category"/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="CMS_PROVID"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="CMS_PROV_1"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="CMS_PROV_3"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="CMS_PROV_4"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="FACILITY_N"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="CMS_PROV_5"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="CMS_PROV_6"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="CMS_PROV_7"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="CMS_PROV_8"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="TOT_BED_CT"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="CERTIFIED_"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="MEDICARE_S"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="MEDICAID_S"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="MEDICARE_M"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="PHONE_NUM"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="FAX_NUM"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="Category"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="CMS_PROVID"/>
+        <constraint desc="" exp="" field="CMS_PROV_1"/>
+        <constraint desc="" exp="" field="CMS_PROV_3"/>
+        <constraint desc="" exp="" field="CMS_PROV_4"/>
+        <constraint desc="" exp="" field="FACILITY_N"/>
+        <constraint desc="" exp="" field="CMS_PROV_5"/>
+        <constraint desc="" exp="" field="CMS_PROV_6"/>
+        <constraint desc="" exp="" field="CMS_PROV_7"/>
+        <constraint desc="" exp="" field="CMS_PROV_8"/>
+        <constraint desc="" exp="" field="TOT_BED_CT"/>
+        <constraint desc="" exp="" field="CERTIFIED_"/>
+        <constraint desc="" exp="" field="MEDICARE_S"/>
+        <constraint desc="" exp="" field="MEDICAID_S"/>
+        <constraint desc="" exp="" field="MEDICARE_M"/>
+        <constraint desc="" exp="" field="PHONE_NUM"/>
+        <constraint desc="" exp="" field="FAX_NUM"/>
+        <constraint desc="" exp="" field="Category"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns>
+          <column type="field" name="CMS_PROVID" width="-1" hidden="0"/>
+          <column type="field" name="CMS_PROV_1" width="-1" hidden="0"/>
+          <column type="field" name="CMS_PROV_3" width="-1" hidden="0"/>
+          <column type="field" name="CMS_PROV_4" width="-1" hidden="0"/>
+          <column type="field" name="FACILITY_N" width="-1" hidden="0"/>
+          <column type="field" name="CMS_PROV_5" width="-1" hidden="0"/>
+          <column type="field" name="CMS_PROV_6" width="-1" hidden="0"/>
+          <column type="field" name="CMS_PROV_7" width="-1" hidden="0"/>
+          <column type="field" name="CMS_PROV_8" width="-1" hidden="0"/>
+          <column type="field" name="TOT_BED_CT" width="-1" hidden="0"/>
+          <column type="field" name="CERTIFIED_" width="-1" hidden="0"/>
+          <column type="field" name="MEDICARE_S" width="-1" hidden="0"/>
+          <column type="field" name="MEDICAID_S" width="-1" hidden="0"/>
+          <column type="field" name="MEDICARE_M" width="-1" hidden="0"/>
+          <column type="field" name="PHONE_NUM" width="-1" hidden="0"/>
+          <column type="field" name="FAX_NUM" width="-1" hidden="0"/>
+          <column type="field" name="Category" width="-1" hidden="0"/>
+          <column type="actions" width="-1" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="CERTIFIED_" editable="1"/>
+        <field name="CMS_PROVID" editable="1"/>
+        <field name="CMS_PROV_1" editable="1"/>
+        <field name="CMS_PROV_3" editable="1"/>
+        <field name="CMS_PROV_4" editable="1"/>
+        <field name="CMS_PROV_5" editable="1"/>
+        <field name="CMS_PROV_6" editable="1"/>
+        <field name="CMS_PROV_7" editable="1"/>
+        <field name="CMS_PROV_8" editable="1"/>
+        <field name="Category" editable="1"/>
+        <field name="FACILITY_N" editable="1"/>
+        <field name="FAX_NUM" editable="1"/>
+        <field name="MEDICAID_S" editable="1"/>
+        <field name="MEDICARE_M" editable="1"/>
+        <field name="MEDICARE_S" editable="1"/>
+        <field name="PHONE_NUM" editable="1"/>
+        <field name="TOT_BED_CT" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="CERTIFIED_"/>
+        <field labelOnTop="0" name="CMS_PROVID"/>
+        <field labelOnTop="0" name="CMS_PROV_1"/>
+        <field labelOnTop="0" name="CMS_PROV_3"/>
+        <field labelOnTop="0" name="CMS_PROV_4"/>
+        <field labelOnTop="0" name="CMS_PROV_5"/>
+        <field labelOnTop="0" name="CMS_PROV_6"/>
+        <field labelOnTop="0" name="CMS_PROV_7"/>
+        <field labelOnTop="0" name="CMS_PROV_8"/>
+        <field labelOnTop="0" name="Category"/>
+        <field labelOnTop="0" name="FACILITY_N"/>
+        <field labelOnTop="0" name="FAX_NUM"/>
+        <field labelOnTop="0" name="MEDICAID_S"/>
+        <field labelOnTop="0" name="MEDICARE_M"/>
+        <field labelOnTop="0" name="MEDICARE_S"/>
+        <field labelOnTop="0" name="PHONE_NUM"/>
+        <field labelOnTop="0" name="TOT_BED_CT"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>CMS_PROVID</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer autoRefreshTime="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" type="vector" simplifyDrawingHints="1" readOnly="0" maxScale="0" geometry="Polygon" simplifyLocal="1" simplifyMaxScale="1" simplifyDrawingTol="1" refreshOnNotifyEnabled="0" simplifyAlgorithm="0" wkbType="MultiPolygon" minScale="1e+08" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>189779.18296169373206794</xmin>
+        <ymin>4816296.00265731662511826</ymin>
+        <xmax>761657.13679268572013825</xmax>
+        <ymax>5472414.14367775246500969</ymax>
+      </extent>
+      <id>MN_Counties_HeartMrt_over65_1214_0cc77503_6694_407e_a20c_ecca394f54e3</id>
+      <datasource>../Displaying_Data_Exercise_Data/MN_Counties_HeartMrt_over65_1214.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>MN_Counties_HeartMrt_over65_1214</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["NAD83 / UTM zone 15N",BASEGEOGCRS["NAD83",DATUM["North American Datum 1983",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4269]],CONVERSION["UTM zone 15N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-93,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["North America - 96°W to 90°W and NAD83 by country"],BBOX[25.61,-96,84,-90]],ID["EPSG",26915]]</wkt>
+          <proj4>+proj=utm +zone=15 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>2292</srsid>
+          <srid>26915</srid>
+          <authid>EPSG:26915</authid>
+          <description>NAD83 / UTM zone 15N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial crs="" minx="0" maxz="0" maxy="0" miny="0" minz="0" dimensions="2" maxx="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 enableorderby="0" symbollevels="0" type="singleSymbol" forceraster="0">
+        <symbols>
+          <symbol force_rhr="0" clip_to_extent="1" alpha="1" type="fill" name="0">
+            <layer class="SimpleFill" locked="0" pass="0" enabled="1">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="211,231,206,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory scaleBasedVisibility="0" penAlpha="255" maxScaleDenominator="1e+08" sizeType="MM" lineSizeScale="3x:0,0,0,0,0,0" penColor="#000000" rotationOffset="270" backgroundColor="#ffffff" opacity="1" penWidth="0" enabled="0" height="15" labelPlacementMethod="XHeight" scaleDependency="Area" minimumSize="0" width="15" diagramOrientation="Up" sizeScale="3x:0,0,0,0,0,0" backgroundAlpha="255" minScaleDenominator="0" lineSizeType="MM" barWidth="5">
+          <fontProperties description="Ubuntu,10,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings placement="1" priority="0" dist="0" zIndex="0" showAll="1" linePlacementFlags="18" obstacle="0">
+        <properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration type="Map">
+          <Option type="Map" name="QgsGeometryGapCheck">
+            <Option type="double" name="allowedGapsBuffer" value="0"/>
+            <Option type="bool" name="allowedGapsEnabled" value="false"/>
+            <Option type="QString" name="allowedGapsLayer" value=""/>
+          </Option>
+        </checkConfiguration>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="STATEFP10">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="COUNTYFP10">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="COUNTYNS10">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GEOID10">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME10">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAMELSAD10">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="HrtMrt_65p">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MOE_Mrt65p">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" index="0" field="STATEFP10"/>
+        <alias name="" index="1" field="COUNTYFP10"/>
+        <alias name="" index="2" field="COUNTYNS10"/>
+        <alias name="" index="3" field="GEOID10"/>
+        <alias name="" index="4" field="NAME10"/>
+        <alias name="" index="5" field="NAMELSAD10"/>
+        <alias name="" index="6" field="HrtMrt_65p"/>
+        <alias name="" index="7" field="MOE_Mrt65p"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" applyOnUpdate="0" field="STATEFP10"/>
+        <default expression="" applyOnUpdate="0" field="COUNTYFP10"/>
+        <default expression="" applyOnUpdate="0" field="COUNTYNS10"/>
+        <default expression="" applyOnUpdate="0" field="GEOID10"/>
+        <default expression="" applyOnUpdate="0" field="NAME10"/>
+        <default expression="" applyOnUpdate="0" field="NAMELSAD10"/>
+        <default expression="" applyOnUpdate="0" field="HrtMrt_65p"/>
+        <default expression="" applyOnUpdate="0" field="MOE_Mrt65p"/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="STATEFP10"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="COUNTYFP10"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="COUNTYNS10"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="GEOID10"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="NAME10"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="NAMELSAD10"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="HrtMrt_65p"/>
+        <constraint unique_strength="0" notnull_strength="0" exp_strength="0" constraints="0" field="MOE_Mrt65p"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="STATEFP10"/>
+        <constraint desc="" exp="" field="COUNTYFP10"/>
+        <constraint desc="" exp="" field="COUNTYNS10"/>
+        <constraint desc="" exp="" field="GEOID10"/>
+        <constraint desc="" exp="" field="NAME10"/>
+        <constraint desc="" exp="" field="NAMELSAD10"/>
+        <constraint desc="" exp="" field="HrtMrt_65p"/>
+        <constraint desc="" exp="" field="MOE_Mrt65p"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+        <columns>
+          <column type="field" name="STATEFP10" width="-1" hidden="0"/>
+          <column type="field" name="COUNTYFP10" width="-1" hidden="0"/>
+          <column type="field" name="COUNTYNS10" width="-1" hidden="0"/>
+          <column type="field" name="GEOID10" width="-1" hidden="0"/>
+          <column type="field" name="NAME10" width="-1" hidden="0"/>
+          <column type="field" name="NAMELSAD10" width="-1" hidden="0"/>
+          <column type="field" name="HrtMrt_65p" width="-1" hidden="0"/>
+          <column type="field" name="MOE_Mrt65p" width="-1" hidden="0"/>
+          <column type="actions" width="-1" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="COUNTYFP10" editable="1"/>
+        <field name="COUNTYNS10" editable="1"/>
+        <field name="GEOID10" editable="1"/>
+        <field name="HrtMrt_65p" editable="1"/>
+        <field name="MOE_Mrt65p" editable="1"/>
+        <field name="NAME10" editable="1"/>
+        <field name="NAMELSAD10" editable="1"/>
+        <field name="STATEFP10" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="COUNTYFP10"/>
+        <field labelOnTop="0" name="COUNTYNS10"/>
+        <field labelOnTop="0" name="GEOID10"/>
+        <field labelOnTop="0" name="HrtMrt_65p"/>
+        <field labelOnTop="0" name="MOE_Mrt65p"/>
+        <field labelOnTop="0" name="NAME10"/>
+        <field labelOnTop="0" name="NAMELSAD10"/>
+        <field labelOnTop="0" name="STATEFP10"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>NAME10</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>
