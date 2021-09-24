@@ -1,0 +1,7 @@
+shapefiles:
+https://www.cdc.gov/dhdsp/maps/gisx/training/module3/files/Exercise_1_data-508.zip
+
+street files:
+ftp://ftp.cdc.gov/pub/dhdsp/maps/gisx/training/module2/files/5-data-508.zip
+Didn't work, tried this instead:
+https://ftp.cdc.gov/pub/dhdsp/maps/gisx/training/module2/files/5-data-508.zip
